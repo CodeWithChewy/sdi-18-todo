@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
+  background-color: #e9e9e9c5;
   margin: 0;
   padding: 0;
 }
@@ -9,7 +9,7 @@ body {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #f1efef;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -33,7 +33,7 @@ form {
   font-size: 16px;
   border: none;
   border-radius: 4px 0 0 4px;
-  background-color: #f2f2f2;
+  background-color: #8bb488;
 }
 
 #button1 {
@@ -47,10 +47,6 @@ form {
   transition: background-color 0.3s ease;
 }
 
-#button1:hover {
-  background-color: #555;
-}
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -62,18 +58,14 @@ li {
   margin-bottom: 10px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
+  cursor: grab;
   transition: background-color 0.3s ease;
-}
-
-li:hover {
-  background-color: #f9f9f9;
 }
 
 /* New color enhancements */
 
 .container {
-  background-color: #f1f1f1;
+  background-color: #e6e6e6;
 }
 
 #todo-input:focus {
@@ -82,17 +74,17 @@ li:hover {
 }
 
 #button1 {
-  background-color: #5e8ccc;
+  background-color: #8bb488;
 }
 
 #button1:hover {
-  background-color: #466b99;
+  background-color: #ebc334;
 }
 
 li {
-  background-color: #eaeaea;
+  background-color: #8bb488;
 }
 
 li:hover {
-  background-color: #dedede;
+  background-color: #ebc334;
 }
