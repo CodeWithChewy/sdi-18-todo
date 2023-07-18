@@ -62,7 +62,6 @@ li {
   transition: background-color 0.3s ease;
 }
 
-/* New color enhancements */
 
 .container {
   background-color: #e6e6e6;
@@ -83,8 +82,4 @@ li {
 
 li {
   background-color: #8bb488;
-}
-
-li:hover {
-  background-color: #ebc334;
 }
