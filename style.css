@@ -67,10 +67,8 @@ li {
 }
 
 li:hover {
-  background-color: #f9f9f9;
+  background-color: #e0cccc;
 }
-
-/* New color enhancements */
 
 .container {
   background-color: #f1f1f1;
@@ -91,8 +89,4 @@ li:hover {
 
 li {
   background-color: #eaeaea;
-}
-
-li:hover {
-  background-color: #dedede;
 }
