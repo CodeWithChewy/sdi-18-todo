@@ -1,3 +1,98 @@
-h1 { 
-    color: purple;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 0;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#todo-input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  background-color: #f2f2f2;
+}
+
+#button1 {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#button1:hover {
+  background-color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #f9f9f9;
+}
+
+/* New color enhancements */
+
+.container {
+  background-color: #f1f1f1;
+}
+
+#todo-input:focus {
+  outline: none;
+  background-color: #e0e0e0;
+}
+
+#button1 {
+  background-color: #5e8ccc;
+}
+
+#button1:hover {
+  background-color: #466b99;
+}
+
+li {
+  background-color: #eaeaea;
+}
+
+li:hover {
+  background-color: #dedede;
+}
